@@ -1,0 +1,158 @@
+@font-face {
+    font-family: centra ;
+    src: url("./assets/font/CentraNo2-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: centra;
+    src: url("./assets/font/CentraNo2-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: centra ;
+    src: url("./assets/font/CentraNo2-Book.ttf");
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{ 
+    color: white;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #121212 !important;
+    /* max-width: 1300px; */
+}
+
+
+a{
+    text-decoration:none;
+    color:white  !important;
+}
+
+
+
+.nav-link{
+   font-family: "centra",sans-serif !important;
+   font-weight:700;
+   font-size: 30px;
+   transition: opacity 0.2s ease-in-out;
+   text-align: center;
+ 
+}
+
+h4{
+    font-family: "centra",sans-serif !important;   
+    font-weight:500;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+p{
+    font-family: "centra",sans-serif !important;   
+    font-weight:400;
+    margin-top: 2%;
+    font-size: 1rem;
+    line-height: 1.7  ;
+}
+
+.col-md-5 {
+    flex: 0 0 auto;
+    width: 43.667% !important;
+  }
+
+  .col-md-3{
+    padding:2%;
+  }
+
+.row{
+  justify-content: center;
+    margin: 60px auto 0 auto;
+}
+
+
+
+.first,.third{
+    background-color:rgb(31, 31, 31);
+    border-radius: 60px;
+    color: white !important;
+    text-align:center ;
+    min-height: 75vh;
+
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-grad{
+   
+    justify-content: center;
+
+}
+
+.img-fluid{
+    max-height: 270px;
+    border-radius: 64px;
+    margin-bottom: 10%;
+}
+
+.btn-flex{
+    display: flex;
+justify-content: center;
+}
+
+.nav-link:hover{
+    opacity: 0.8;
+    color: #00EAFF!important;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #fceabb 0%, #f8b500 51%, #fceabb 100%);
+    margin: 10px;
+    margin: 20px 0;
+    padding: 20px 75px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-family: "centra",sans-serif !important;   
+    font-weight:500;
+    border-radius: 10px;
+    
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
