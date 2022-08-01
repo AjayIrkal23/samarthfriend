@@ -45,7 +45,10 @@ p,h1,h2,h3,h4,h5,h6{
 
 body{
     background-color: #121212 !important;
-    /* max-width: 1300px; */
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url("https://st2.depositphotos.com/3837271/5437/i/950/depositphotos_54377869-stock-photo-safety-first-written-on-the.jpg") center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -54,11 +57,15 @@ a{
     color:white  !important;
 }
 
+.nav{
+    background-color: #121212 !important;
+}
+
 
 
 .nav-link{
-   font-family: "centra",sans-serif !important;
-   font-weight:700;
+    font-family: 'Montserrat', sans-serif;
+  
    font-size: 30px;
    transition: opacity 0.2s ease-in-out;
    text-align: center;
@@ -134,20 +141,21 @@ justify-content: center;
 }
 
          
-.btn-grad {
-    background-image: linear-gradient(to right, #fceabb 0%, #f8b500 51%, #fceabb 100%);
+
+
+          
+  .btn-grad {
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
     margin: 10px;
-    margin: 20px 0;
-    padding: 20px 75px;
+   
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;
-    font-family: "centra",sans-serif !important;   
-    font-weight:500;
+    color: white;            
+    box-shadow: 0 0 10px #eee;
     border-radius: 10px;
-    
+    padding: 20px 75px;
   }
 
   .btn-grad:hover {
@@ -155,4 +163,6 @@ justify-content: center;
     color: #fff;
     text-decoration: none;
   }
+
+  
  
